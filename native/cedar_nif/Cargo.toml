@@ -1,0 +1,14 @@
+[package]
+name = "cedar_nif"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "cedar_nif"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cedar-policy = "2.3.3"
+rustler = "0.29.1"
